@@ -205,6 +205,195 @@ def stem_vol_222(dbh_m, height_m) :
     D=dbh_m*100
     H=height_m
     return (a+b*D**2+c*D**2*H+d*H**2+D+e*H**2)/1000
+    
+#Jakub_Sobolewski
+def stem_volume7(dbh_cm, height_m):
+    from math import log10
+    a=0.0000452
+    b=2.1554
+    c=-0.1067
+    d=0.9380
+    e=0.0228
+    D=dbh_cm * 100
+    H=height_m
+    result = a*10**(b*log10(D)+c*log10(D)**2+d*log10(H)+e*log10(H)**2)
+    return result
+    
+def stem_volume19(dbh_cm, height_m):
+    from math import pi
+    a=0.2264
+    b=0.01347
+    c=0.007665
+    d=-0.06669
+    e=0.000428
+    D=dbh_cm * 100
+    H=height_m
+    return (a*D**2+b*D**2*H+c*D*H**2+d*D*H+e*D**2*H**2)/1000
+    
+def stem_volume31(dbh_cm, height_m):
+    from math import pi
+    a=0.99983
+    b=0.006325
+    c=0.02849
+    d=0.00885
+    e=-0.00799
+    D=dbh_cm * 100
+    H=height_m
+    return (a+b*D**2+c*D**2*H+d*D*H**2+e*H**2)/1000
+    
+def stem_volume43(dbh_cm, height_m):
+    from math import pi, log10, exp
+    a=1.85298
+    b=0.86717
+    c=-2.33706
+    D=dbh_cm * 100
+    H=height_m
+    return (D**a*H**b*exp(c))/1000
+    
+def stem_volume55(dbh_cm, height_m):
+    from math import pi, log10, exp
+    a=1.9577
+    b=0.7706
+    c=-2.48079
+    D=dbh_cm * 100
+    H=height_m
+    return (D**a*H**b*exp(c))/1000
+    
+def stem_volume67(dbh_cm, height_m):
+    from math import pi, log10, exp
+    a=1.86670
+    b=1.08118
+    c=-3.0488
+    D=dbh_cm * 100
+    H=height_m
+    return (D**a*H**b*exp(c))/1000
+    
+def stem_volume79(dbh_mm, height_m):
+    from math import pi, log10, exp
+    a=0.00035217
+    b=2.12841828
+    c=-0.1054168
+    d=0.76283925
+    D=dbh_mm * 1000
+    H=height_m
+    return (a*D**(b+c)*H**d)/1000
+    
+def stem_volume91(dbh_cm, height_m):
+    from math import pi, log10, exp
+    a=0.7877
+    b=1.9302
+    c=0.79465
+    D=dbh_cm * 100
+    H=height_m
+    return (a*D**b*H**c)/10000
+    
+def stem_volume103(dbh_cm, height_m):
+    from math import pi, log10
+    a=0.7464
+    b=2.496
+    c=2.0714
+    d=-1.4175
+    e=-0.9601
+    D=dbh_cm * 100
+    H=height_m
+    return (a*H**b*D**c*(H-1.3)**d*(D+40)**e)/1000
+    
+def stem_volume115(dbh_cm, height_m):
+    from math import pi, log10
+    a=0.53005
+    b=1.229283
+    D=dbh_cm * 100
+    H=height_m
+    return (pi/40000)*H*D*(a*D+b)
+    
+def stem_volume127(dbh_cm, height_m):
+    from math import pi, log10
+    a=0.1870
+    b=3.7077
+    c=1.9854
+    d=-2.2816
+    e=-0.7161
+    D=dbh_cm * 100
+    H=height_m
+    return (a*H**b*D**c*(H-1.3)**d*(D+40)**e)/1000
+    
+def stem_volume139(dbh_cm, height_m):
+    from math import pi, log10
+    a=0.000074
+    b=3.1
+    D=dbh_cm * 100
+    H=height_m
+    return a*H**b
+    
+def stem_volume151(dbh_cm, height_m):
+    from math import pi, log10
+    a=0.0942
+    b=1.9671
+    c=0.7005
+    D=dbh_cm * 100
+    H=height_m
+    return (a*D**b*H**c)/1000
+    
+def stem_volume163(dbh_cm, height_m):
+    from math import pi, log10
+    a=0.4434
+    b=4.9667
+    c=1.9912
+    d=-3.6612
+    e=-0.7502
+    D=dbh_cm * 100
+    H=height_m
+    return (a*H**b*D**c*(H-1.3)**d*(D+100)**e)/1000
+    
+def stem_volume175(dbh_cm, height_m):
+    from math import pi, log10
+    a=-1.52761
+    b=1.82928
+    c=0.07454
+    d=1.43792
+    e=-0.35559
+    D=dbh_cm * 100
+    H=height_m
+    return (10**a*D**b*(D+20)**c*H**d*(H-1.3)**e)/1000
+    
+def stem_volume187(dbh_cm, height_m):
+    from math import pi, log10
+    a=0.00007604
+    b=1.7812
+    c=0.0528
+    d=0.8533
+    e=0.0654
+    D=dbh_cm * 100
+    H=height_m
+    return a*10**(b*log10(D)+c*log10(D)**2+d*log10(H)+e*log10(H)**2)
+    
+def stem_volume199(dbh_mm, height_m):
+    from math import pi, log10
+    a=0.00095916
+    b=2.092560524
+    c=0
+    d=0.48824344
+    D=dbh_mm * 1000
+    H=height_m
+    return (a*D**(b+c)*H**d)/1000
+    
+def stem_volume211(dbh_dm, height_dm):
+    from math import pi, log
+    a=0.417118
+    b=0.21941
+    c=13.32594
+    D=dbh_dm * 10
+    H=height_dm * 10
+    return ((pi/4)*(a*D**2*H+b*D**2*H*log(D)**2+c*D**2))/1000
+    
+def stem_volume223(dbh_cm, height_m):
+    from math import pi, exp
+    a=1.67887
+    b=1.11243
+    c=-2.64821
+    D=dbh_cm * 100
+    H=height_m
+    return (D**a*H**b*exp(c))/1000
 
 # Jeremias
 def stem_vol_4(dbh_m):
