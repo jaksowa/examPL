@@ -1,0 +1,103 @@
+species,diameter at breast height [mm],height [dm],volume with bark [m3]
+Norway spruce,1001,380,9.2874832
+Norway spruce,128,160,0.10130733
+sitka spruce,159,148,0.16453689
+sitka spruce,430,290,1.8259069
+other spruces,122,76,0.039199714
+other spruces,235,100,0.20704176
+Scots pine,305,259,0.82990932
+Scots pine,348,276,0.98203754
+mountain pine,25,,0
+mountain pine,272,38,0.16245905
+European black pine,538,283,2.7153218
+European black pine,228,209,0.38041985
+Pinus cembra,515,145,1.3649546
+Pinus cembra,251,108,0.26828152
+eastern white pine,25,,0
+eastern white pine,1,,0
+other pines,82,77,0.014242512
+other pines,428,290,1.8979923
+silver fir,1,,0
+silver fir,249,153,0.33188191
+Grand fir,179,207,0.27363232
+Grand fir,239,231,0.53164524
+other firs,425,283,2.3922958
+other firs,558,340,3.939364
+Douglas fir,463,313,2.1181102
+Douglas fir,644,369,4.6409478
+European larch,516,276,2.3527069
+European larch,511,370,2.8904333
+Japanese larch,515,232,2.132453
+Japanese larch,501,317,2.5780122
+other coniferous trees,25,,0
+other coniferous trees,228,187,0.38974762
+European yew,25,,0
+European yew,1,,0
+beech,102,162,0.044845171
+beech,449,160,1.3038293
+English oak,417,313,1.8792138
+English oak,517,218,2.3369818
+sessile oak,272,189,0.52249312
+sessile oak,166,221,0.21519108
+Northern red oak,219,199,0.36490697
+Northern red oak,294,180,0.5639165
+common ash,467,376,3.1765842
+common ash,714,366,6.653307
+hornbeam,306,213,0.71306151
+hornbeam,255,182,0.41246033
+sycamore maple,1,,0
+sycamore maple,1,,0
+Norway maple,1,,0
+Norway maple,25,,0
+field maple,74,105,0.0084536104
+field maple,1,,0
+linden tree,575,341,4.4374833
+linden tree,104,99,0.034151409
+black locust,846,322,11.924439
+black locust,1064,296,14.938807
+"elm, native species",1,,0
+"elm, native species",1,,0
+chestnut,896,358,8.8652124
+chestnut,129,85,0.055129774
+misc. deciduous trees with long life expectancy,1,,0
+misc. deciduous trees with long life expectancy,73,31,0.0089369575
+service tree,114,108,0.056621149
+service tree,1,,0
+common whitebeam,295,226,0.69954967
+common whitebeam,296,212,0.66214728
+silver birch,278,299,0.83068061
+silver birch,217,180,0.31626499
+Betula pubescens + Betula pubescens var. glabrata,142,149,0.095518582
+Betula pubescens + Betula pubescens var. glabrata,103,107,0.033161331
+black alder,95,139,0.030809805
+black alder,305,234,0.77949691
+grey alder,25,,0
+grey alder,1,,0
+common aspen,328,243,0.95004904
+common aspen,239,212,0.43276635
+European black poplar,339,294,1.1466973
+European black poplar,300,223,0.71629679
+grey poplar,719,377,5.9511719
+grey poplar,502,392,3.1645803
+silver poplar,330,202,0.8873201
+silver poplar,593,285,3.5320084
+balsam poplar,222,202,0.25737509
+balsam poplar,570,327,3.4377487
+European rowan,1,,0
+European rowan,77,79,0.01133413
+willow,553,289,3.4138055
+willow,70,49,0.0073091798
+bird cherry,65,,0
+bird cherry,25,,0
+wild cherry,211,143,0.23317865
+wild cherry,1,,0
+black cherry,25,,0
+black cherry,1,,0
+misc. deciduous trees with short life expectancy,25,,0
+misc. deciduous trees with short life expectancy,164,166,0.15084726
+European crab apple,135,135,0.08162342
+European crab apple,87,79,0.015210236
+European wild pear,1,,0
+European wild pear,25,,0
+wild service tree,100,127,0.029378371
+wild service tree,179,175,0.22195752
