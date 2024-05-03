@@ -1,7 +1,7 @@
 species_mapping = {
-'Norway spruce':'Norway spruce',
-'sitka spruce':'Norway spruce',
-'other spruces':'Norway spruce',
+'Norway spruce':'Picea abies',
+'sitka spruce':'Picea sitchensis',
+'other spruces':'Picea spp.',
 'Scots pine':'Pinus sylvestris',
 'mountain pine':'Pinus spp.',
 'European black pine':'Pinus nigra var nigra',
