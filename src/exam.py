@@ -4,9 +4,9 @@ from stem_volume import *
 import pandas as pd
 import numpy as np
 
-input_df = pd.read_csv('C:/Users/ASUS/Desktop/Adv_programming/Git/advprog24_Forms/data/tree_sampled_data.csv')
+input_df = pd.read_csv('./data/tree_sampled_data.csv')
 from mapping import species_mapping
-metadata = pd.read_csv('C:/Users/ASUS/Desktop/Adv_programming/Git/advprog24_Forms/data/form_metadata.csv',sep= ';')
+metadata = pd.read_csv('./data/form_metadata.csv',sep= ';')
 
 
 def expand_dataframe(input_df):
